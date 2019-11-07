@@ -1,0 +1,1 @@
+[2019-11-06T19:33:26.471] [ERROR] trappsporte - [action: login][msg: {"error":{"type":"error","title":"Ingreso de usuarios","description":"Los datos de acceso son incorrectos."},"status":404}][line:68:C:\Users\APRENDIZ\Documents\backend\app\services\user.js]
