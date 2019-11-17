@@ -1,0 +1,5 @@
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\bin\Release\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\bin\Release\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\obj\Release\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\obj\Release\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\obj\Release\WsRestConsultaWebAsamblea.EN.csprojResolveAssemblyReference.cache

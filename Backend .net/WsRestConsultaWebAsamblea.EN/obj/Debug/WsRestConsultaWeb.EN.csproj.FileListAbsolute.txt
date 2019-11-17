@@ -1,0 +1,5 @@
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\bin\Debug\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\bin\Debug\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWeb.EN.csprojAssemblyReference.cache
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWebAsamblea.EN.pdb

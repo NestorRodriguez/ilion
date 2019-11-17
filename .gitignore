@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/Backend .net/packages
+/Backend .net/WsRestConsultaWebAsamblea.Tests
+/Backend .net/.vs/WsRestConsultaWeb
