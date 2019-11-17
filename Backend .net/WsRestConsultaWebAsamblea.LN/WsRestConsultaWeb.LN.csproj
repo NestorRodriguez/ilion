@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Consultas\ConsultaRol.cs" />
+    <Compile Include="Consultas\Consulta_Identificacion.cs" />
     <Compile Include="Modelo\Respuesta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

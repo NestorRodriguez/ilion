@@ -33,7 +33,6 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
 
         }
 
-
         public List<roles> ConsultaRolesID(roles objrold)
         {
 
