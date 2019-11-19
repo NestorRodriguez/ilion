@@ -10,6 +10,8 @@ const routes: Routes = [
   { path: 'inscripcion', loadChildren: './inscripcion/inscripcion.module#InscripcionPageModule' },
   { path: 'mjsinsexit', loadChildren: './mjsinsexit/mjsinsexit.module#MjsinsexitPageModule' },
   { path: 'logo', loadChildren: './logo/logo.module#LogoPageModule' },
+  { path: 'calendario', loadChildren: './calendario/calendario.module#CalendarioPageModule' },
+  { path: 'cal-details', loadChildren: './cal-details/cal-details.module#CalDetailsPageModule' },
 ];
 
 @NgModule({
