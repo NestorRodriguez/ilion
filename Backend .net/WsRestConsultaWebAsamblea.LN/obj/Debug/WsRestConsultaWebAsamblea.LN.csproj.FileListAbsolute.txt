@@ -1,0 +1,9 @@
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.LN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.LN.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.AD.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.AD.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.csprojResolveAssemblyReference.cache
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\7.PaginaWEB\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.pdb

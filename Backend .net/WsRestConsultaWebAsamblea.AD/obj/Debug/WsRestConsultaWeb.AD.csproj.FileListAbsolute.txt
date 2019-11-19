@@ -1,0 +1,9 @@
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\bin\Debug\WsRestConsultaWebAsamblea.AD.dll
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\bin\Debug\WsRestConsultaWebAsamblea.AD.pdb
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\bin\Debug\System.Configuration.dll
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\bin\Debug\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\bin\Debug\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\obj\Debug\WsRestConsultaWeb.AD.csprojAssemblyReference.cache
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\obj\Debug\WsRestConsultaWeb.AD.csproj.CopyComplete
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\obj\Debug\WsRestConsultaWebAsamblea.AD.dll
+C:\Users\pamel\OneDrive\Escritorio\WsRestConsultaWebAsamblea\WsRestConsultaWebAsamblea.AD\obj\Debug\WsRestConsultaWebAsamblea.AD.pdb
