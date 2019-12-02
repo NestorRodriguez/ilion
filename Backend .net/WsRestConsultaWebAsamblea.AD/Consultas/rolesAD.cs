@@ -25,8 +25,8 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
             {
                 roles objrolad = new roles();
                 List_ = listrol[i];
-                objrolad.rol = List_[0, 1].ToString();
-                objrolad.observaciones = List_[1, 1].ToString();
+                objrolad.id_rol = List_[0, 1].ToString();
+                objrolad.rol = List_[1, 1].ToString();
                 listrol2.Add(objrolad);
             }
             return listrol2;
@@ -50,8 +50,9 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
             {
                 roles objrolad = new roles();
                 List_ = listrol[i];
-                objrolad.rol = List_[0, 1].ToString();
-                objrolad.observaciones = List_[1, 1].ToString();
+                objrolad.id_rol = List_[0, 1].ToString();
+                objrolad.rol = List_[1, 1].ToString();
+                objrolad.observaciones = List_[2, 1].ToString();
                 listrol2.Add(objrolad);
             }
             return listrol2;
