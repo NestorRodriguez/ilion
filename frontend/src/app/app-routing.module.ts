@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'menu', loadChildren: './menu/menu.module#MenuPageModule' },
   { path: 'inscripcion', loadChildren: './inscripcion/inscripcion.module#InscripcionPageModule' },
   { path: 'mjsinsexit', loadChildren: './mjsinsexit/mjsinsexit.module#MjsinsexitPageModule' },
-  { path: 'logo', loadChildren: './logo/logo.module#LogoPageModule' },  { path: 'pagos', loadChildren: './pagos/pagos.module#PagosPageModule' },
+  { path: 'logo', loadChildren: './logo/logo.module#LogoPageModule' },
+  { path: 'pagos', loadChildren: './pagos/pagos.module#PagosPageModule' },
   { path: 'calendario', loadChildren: './calendario/calendario.module#CalendarioPageModule' },
 
 ];
