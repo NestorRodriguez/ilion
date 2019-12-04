@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\estudianteAD.cs" />
     <Compile Include="Consultas\rolesAD.cs" />
     <Compile Include="Consultas\tipo_identificacionAD.cs" />
+    <Compile Include="Consultas\usuarioAD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\IWcfData.cs" />
     <Compile Include="Servicios\WcfData.cs" />

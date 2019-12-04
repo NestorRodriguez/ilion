@@ -40,8 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tablas\estudiante.cs" />
     <Compile Include="Tablas\roles.cs" />
     <Compile Include="Tablas\tipo_identificacion.cs" />
+    <Compile Include="Tablas\usuario.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
