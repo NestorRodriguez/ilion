@@ -8,8 +8,6 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { Calendar } from '@ionic-native/calendar/ngx'
-
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -18,7 +16,7 @@ import { Calendar } from '@ionic-native/calendar/ngx'
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    Calendar
+
   ],
   bootstrap: [AppComponent]
 })
