@@ -18,8 +18,7 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
         {
             try
             {
-                if (obj.id_registro.Equals(""))
-                {
+               
                     usuario Objhap = new usuario();
                     Objhap.id_registro = obj.id_registro;
                     usuarioAD ObjhadAD = new usuarioAD();
@@ -34,13 +33,7 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
                         List.Add(ObjError);
                         return List;
                     }
-                }
-                else
-                {
-                    ObjError.Error = "El numero de id no existe";
-                    List.Add(ObjError);
-                    return List;
-                }
+                
             }
             catch (Exception)
             {

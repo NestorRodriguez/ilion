@@ -10,12 +10,12 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
 {
     public class ConsultaRol
     {
-
+        List<roles> Listrol = new List<roles>();
+        roles ObjError = new roles();
         public List<roles> Consulta_Rol()
         {
 
-            List<roles> Listrol = new List<roles>();
-            roles ObjError = new roles();
+          
 
             try
             {
@@ -47,14 +47,10 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
         public List<roles> Consulta_Rol_id(roles objrol)
         {
 
-            List<roles> Listrol = new List<roles>();
-            roles ObjError = new roles();
+           
 
             try
             {
-
-                if (objrol.id_rol.Equals(""))
-                {
 
                     roles Objhap = new roles();
                     Objhap.id_rol = objrol.id_rol;
@@ -71,13 +67,7 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
                         Listrol.Add(ObjError);
                         return Listrol;
                     }
-                }
-                else
-                {
-                    ObjError.Error = "El numero de id no existe";
-                    Listrol.Add(ObjError);
-                    return Listrol;
-                }
+               
 
             }
             catch (Exception)
@@ -87,5 +77,99 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
                 return Listrol;
             }
         }
+
+        public roles postrol(roles obj)
+        {
+            try
+            {
+
+                roles Objhap = new roles();
+                Objhap.rol = obj.rol;
+                Objhap.observaciones = obj.observaciones;
+                
+                rolesAD ObjhadAD = new rolesAD();
+                bool resultado = ObjhadAD.postrol(Objhap);
+                if (resultado == true)
+                {
+                    ObjError.Error = "Se agrego Exitosamente";
+                    return ObjError;
+                }
+                else
+                {
+                    ObjError.Error = "No se agrego ";
+                    return ObjError;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                ObjError.Error = "Error" + ex.Message;
+                return ObjError;
+
+            }
+        }
+
+        public roles putrol(roles obj)
+        {
+            try
+            {
+
+                roles Objhap = new roles();
+                Objhap.id_rol = obj.id_rol;
+                Objhap.rol = obj.rol;
+                Objhap.observaciones = obj.observaciones;
+
+                rolesAD ObjhadAD = new rolesAD();
+                bool resultado = ObjhadAD.putrol(Objhap);
+                if (resultado == true)
+                {
+                    ObjError.Error = "Se actualizo Exitosamente";
+                    return ObjError;
+                }
+                else
+                {
+                    ObjError.Error = "No se actualizo ";
+                    return ObjError;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                ObjError.Error = "Error" + ex.Message;
+                return ObjError;
+
+            }
+        }
+
+        public roles deleterol(roles obj)
+        {
+            try
+            {
+
+                roles Objhap = new roles();
+                Objhap.id_rol = obj.id_rol;
+
+                rolesAD ObjhadAD = new rolesAD();
+                bool resultado = ObjhadAD.deleterol(Objhap);
+                if (resultado == true)
+                {
+                    ObjError.Error = "Se elimino Exitosamente";
+                    return ObjError;
+                }
+                else
+                {
+                    ObjError.Error = "No se elimino ";
+                    return ObjError;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                ObjError.Error = "Error" + ex.Message;
+                return ObjError;
+
+            }
+        }
+
     }
 }

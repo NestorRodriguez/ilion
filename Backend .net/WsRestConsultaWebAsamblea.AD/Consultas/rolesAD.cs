@@ -27,6 +27,7 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
                 List_ = listrol[i];
                 objrolad.id_rol = List_[0, 1].ToString();
                 objrolad.rol = List_[1, 1].ToString();
+                objrolad.observaciones = List_[2, 1].ToString();
                 listrol2.Add(objrolad);
             }
             return listrol2;
@@ -58,6 +59,114 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
             return listrol2;
 
         }
+
+        public bool postrol(roles obj)
+        {
+
+            bool confirmacion = false;
+            string[, ,] Param = new string[2, 3, 1];
+
+
+            Param[0, 0, 0] = obj.rol;
+            Param[0, 1, 0] = "@rol";
+            Param[0, 2, 0] = "varchar(40)";
+
+            Param[1, 0, 0] = obj.observaciones;
+            Param[1, 1, 0] = "@observaciones";
+            Param[1, 2, 0] = "varchar(40)";
+          
+
+            try
+            {
+                string resul = wsc.Ejecutar(Param, "OPE_AgregarRol", "ilion");
+
+                if (resul.Equals("1"))
+                {
+                    confirmacion = true;
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.Write(e.Message + "Error ");
+                confirmacion = false;
+            }
+
+            return confirmacion;
+
+
+        }
+
+        public bool putrol(roles obj)
+        {
+
+            bool confirmacion = false;
+            string[, ,] Param = new string[3, 3, 1];
+            Param[0, 0, 0] = obj.id_rol;
+            Param[0, 1, 0] = "@id_rol";
+            Param[0, 2, 0] = "nvarchar(40)";
+
+            Param[1, 0, 0] = obj.rol;
+            Param[1, 1, 0] = "@rol";
+            Param[1, 2, 0] = "nvarchar(40)";
+
+            Param[2, 0, 0] = obj.observaciones;
+            Param[2, 1, 0] = "@observaciones";
+            Param[2, 2, 0] = "nvarchar(40)";
+
+            try
+            {
+                string resul = wsc.Ejecutar(Param, "OPE_ActualizarRol", "ilion");
+
+                if (resul.Equals("1"))
+                {
+                    confirmacion = true;
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.Write(e.Message + "Error ");
+                confirmacion = false;
+            }
+
+            return confirmacion;
+
+
+        }
+
+        public bool deleterol(roles obj)
+        {
+
+            bool confirmacion = false;
+            string[, ,] Param = new string[1, 3, 1];
+            Param[0, 0, 0] = obj.id_rol;
+            Param[0, 1, 0] = "@id_rol";
+            Param[0, 2, 0] = "nvarchar(40)";
+
+
+
+            try
+            {
+                string resul = wsc.Ejecutar(Param, "OPE_EliminarRol", "ilion");
+
+                if (resul.Equals("1"))
+                {
+                    confirmacion = true;
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.Write(e.Message + "Error ");
+                confirmacion = false;
+            }
+
+            return confirmacion;
+
+
+        }
+
 
     }
 }

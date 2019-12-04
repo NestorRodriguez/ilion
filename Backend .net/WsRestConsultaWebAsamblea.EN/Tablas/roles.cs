@@ -11,7 +11,6 @@ namespace WsRestConsultaWebAsamblea.EN.Tablas
         public string rol { get; set; }
         public string observaciones { get; set; }
         public string id_rol { get; set; } 
-
         public string Error { set; get; }
 
     }
