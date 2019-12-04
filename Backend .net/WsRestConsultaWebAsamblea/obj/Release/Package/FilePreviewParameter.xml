@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="servicioLan" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\maikol\.ramirez\\Documents\\Desarrollos\\12\.Proyecto\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\maikol\.ramirez\\Documents\\Desarrollos\\12\.Proyecto\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:ilionn.database.windows.net,1433;Initial Catalog=Ilion;Persist Security Info=True;User ID=maikop12345;Password=Prosegur20141;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\maikol\.ramirez\\Documents\\Desarrollos\\12\.Proyecto\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ilion-Web.config Connection String" description="" value="Data Source=ilionn.database.windows.net;Initial Catalog=Ilion;User ID=maikop12345;Password=Prosegur20141" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\maikol\.ramirez\\Documents\\Desarrollos\\12\.Proyecto\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ilion']/@connectionString" />
+  </parameter>
+</parameters>

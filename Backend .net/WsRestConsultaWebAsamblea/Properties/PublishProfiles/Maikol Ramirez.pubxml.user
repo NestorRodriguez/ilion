@@ -9,6 +9,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
     <LastUsedPlatform>Any CPU</LastUsedPlatform>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>W:\Departamento de Sistemas\MAIKOL\WsPagWebAdjudicadosRest</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAweuLc3tx4EeUyx01MP+UlQAAAAACAAAAAAADZgAAwAAAABAAAABpKchB5JiNsQJ3AeYdTbg6AAAAAASAAACgAAAAEAAAAPTTggX0P8LZvjFXzyItIeiAAAAA8zZ9SWiXTtSPsHfI5RcyOnXKC9z3xuHcThXsEJjDVPOHvZ7hjhqnBgCGxlIT9wSvLwMbRfm9oTC0r11dLYcgZ2ZQ7hk+niA0EYqNGwSi38bNGrRR+jmDEhpsW8kXxQPGWQ01868QhJGHn+7Eq100X9JUTj3qpzC/5cS2mtV93RwUAAAAP0A0Ezfd3F5vtYZAtyXx9Avr4Ac=</EncryptedPassword>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">

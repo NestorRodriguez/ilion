@@ -1,0 +1,5 @@
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Release\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Release\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Release\WsRestConsultaWeb.EN.csprojResolveAssemblyReference.cache
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Release\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Release\WsRestConsultaWebAsamblea.EN.pdb

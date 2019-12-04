@@ -12,6 +12,8 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
     {
         WcfData wsc = new WsRestConsultaWebAsamblea.AD.Servicios.WcfData();
 
+
+
         public List<usuario> ConsultaUsuario()
         {
 
@@ -30,7 +32,7 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
                 objad.id_ident = List_[1, 1].ToString();
                 objad.num_ident = List_[1, 1].ToString();
                 objad.contraseña = List_[1, 1].ToString();
-                objad.id_rol= List_[1, 1].ToString();
+                objad.id_rol = List_[1, 1].ToString();
                 list2.Add(objad);
             }
             return list2;

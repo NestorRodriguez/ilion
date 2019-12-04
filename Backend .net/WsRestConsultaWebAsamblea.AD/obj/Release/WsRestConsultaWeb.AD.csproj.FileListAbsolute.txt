@@ -1,0 +1,8 @@
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\bin\Release\WsRestConsultaWebAsamblea.AD.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\bin\Release\WsRestConsultaWebAsamblea.AD.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\bin\Release\System.Configuration.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\bin\Release\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\bin\Release\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\obj\Release\WsRestConsultaWeb.AD.csprojResolveAssemblyReference.cache
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\obj\Release\WsRestConsultaWebAsamblea.AD.dll
+C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.AD\obj\Release\WsRestConsultaWebAsamblea.AD.pdb

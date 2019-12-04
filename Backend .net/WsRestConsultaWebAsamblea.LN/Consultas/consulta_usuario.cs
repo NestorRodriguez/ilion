@@ -76,6 +76,9 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
             }
         }
 
+
+        
+
         public usuario postusuario(usuario obj)
         {
             try
