@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Users\\maikol.ramirez\\Documents\\Desarrollos\\12.Proyecto\\ilion\\Backend .net\\WsRestConsultaWebAsamblea\\WsRestConsultaWeb.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
