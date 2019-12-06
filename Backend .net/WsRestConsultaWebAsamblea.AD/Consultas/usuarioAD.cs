@@ -28,11 +28,11 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
                 List_ = list[i];
                 objad.id_registro = List_[0, 1].ToString();
                 objad.nombre = List_[1, 1].ToString();
-                objad.email = List_[1, 1].ToString();
-                objad.id_ident = List_[1, 1].ToString();
-                objad.num_ident = List_[1, 1].ToString();
-                objad.contraseña = List_[1, 1].ToString();
-                objad.id_rol = List_[1, 1].ToString();
+                objad.email = List_[2, 1].ToString();
+                objad.id_ident = List_[3, 1].ToString();
+                objad.num_ident = List_[4, 1].ToString();
+                objad.contraseña = List_[5, 1].ToString();
+                objad.id_rol = List_[6, 1].ToString();
                 list2.Add(objad);
             }
             return list2;
@@ -58,11 +58,39 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
                 List_ = list[i];
                 objad.id_registro = List_[0, 1].ToString();
                 objad.nombre = List_[1, 1].ToString();
-                objad.email = List_[1, 1].ToString();
-                objad.id_ident = List_[1, 1].ToString();
-                objad.num_ident = List_[1, 1].ToString();
-                objad.contraseña = List_[1, 1].ToString();
-                objad.id_rol = List_[1, 1].ToString();
+                objad.email = List_[2, 1].ToString();
+                objad.id_ident = List_[3, 1].ToString();
+                objad.num_ident = List_[4, 1].ToString();
+                objad.contraseña = List_[5, 1].ToString();
+                objad.id_rol = List_[6, 1].ToString();
+                list2.Add(objad);
+            }
+            return list2;
+
+        }
+
+        public List<usuario> ConsultaLogin(usuario obj)
+        {
+
+            List<string[,]> list = new List<string[,]>();
+            List<usuario> list2 = new List<usuario>();
+            string[, ,] Param = new string[2, 3, 1];
+
+            Param[0, 0, 0] = obj.email.ToString();
+            Param[0, 1, 0] = "@email";
+            Param[0, 2, 0] = "varchar(40)";
+
+            Param[1, 0, 0] = obj.contraseña.ToString();
+            Param[1, 1, 0] = "@contraseña";
+            Param[1, 2, 0] = "varchar(40)";
+
+            list = wsc.LlenarLista(Param, "OPE_GETLogin", "ilion", "SP", "Sql");
+            string[,] List_;
+            for (int i = 0; i < list.Count; i++)
+            {
+                usuario objad = new usuario();
+                List_ = list[i];
+               objad.id_rol = List_[0, 1].ToString();
                 list2.Add(objad);
             }
             return list2;
