@@ -8,3 +8,20 @@ C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsR
 C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWebAsamblea.EN.dll
 C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWebAsamblea.EN.pdb
 C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWeb.EN.csprojResolveAssemblyReference.cache
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\WsRestConsultaWebAsamblea.EN.pdb
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\System.Web.Http.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\System.Web.Http.xml
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWeb.EN.csproj.CoreCompileInputs.cache
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWeb.EN.csproj.CopyComplete
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWebAsamblea.EN.dll
+C:\Users\Aprendiz.DESKTOP-SCOUP7G\Documents\ultima entrega\ilion\Backend .net\WsRestConsultaWebAsamblea.EN\obj\Debug\WsRestConsultaWebAsamblea.EN.pdb

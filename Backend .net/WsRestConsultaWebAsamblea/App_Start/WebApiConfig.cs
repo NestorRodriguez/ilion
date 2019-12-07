@@ -14,6 +14,7 @@ namespace WsRestConsultaWebAsamblea
             json.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
             config.Formatters.Remove(config.Formatters.XmlFormatter);
 
+            config.EnableCors();
             //Web API routes
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
