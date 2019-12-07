@@ -17,3 +17,13 @@ C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsR
 C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWeb.LN.csprojResolveAssemblyReference.cache
 C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.dll
 C:\Users\maikol.ramirez\Documents\Desarrollos\12.Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.pdb
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWeb.LN.csprojAssemblyReference.cache
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.dll
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWebAsamblea.LN.pdb
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.LN.dll
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.LN.pdb
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.AD.dll
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.EN.dll
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.AD.pdb
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\bin\Debug\WsRestConsultaWebAsamblea.EN.pdb
+D:\Documents\Proyecto\ilion\Backend .net\WsRestConsultaWebAsamblea.LN\obj\Debug\WsRestConsultaWeb.LN.csproj.CopyComplete

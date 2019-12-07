@@ -47,31 +47,31 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
         public List<tipo_identificacion> Consulta_Identificacion_id(tipo_identificacion obj)
         {
 
-                      try
+            try
             {
 
-                    tipo_identificacion Objrest = new tipo_identificacion();
-                    Objrest.id_ident = obj.id_ident;
-                    tipo_identificacionAD ObjAD = new tipo_identificacionAD();
-                    LisRets = ObjAD.ConsultaIdentificacionID(Objrest);
-                    if (LisRets.Count > 0)
-                    {
+                tipo_identificacion Objrest = new tipo_identificacion();
+                Objrest.id_ident = obj.id_ident;
+                tipo_identificacionAD ObjAD = new tipo_identificacionAD();
+                LisRest = ObjAD.ConsultaIdentificacionID(Objrest);
+                if (LisRest.Count > 0)
+                {
 
-                        return LisRets;
-                    }
-                    else
-                    {
-                        ObjError.Error = "No se encontraron registros";
-                        LisRets.Add(ObjError);
-                        return LisRets;
-                    }
-               
+                    return LisRest;
+                }
+                else
+                {
+                    ObjError.Error = "No se encontraron registros";
+                    LisRest.Add(ObjError);
+                    return LisRest;
+                }
+
             }
             catch (Exception)
             {
                 ObjError.Error = "Ocurrio un error al consultar los roles.";
-                LisRets.Add(ObjError);
-                return LisRets;
+                LisRest.Add(ObjError);
+                return LisRest;
             }
         }
 
@@ -113,7 +113,7 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
                 tipo_identificacion Objhap = new tipo_identificacion();
                 Objhap.id_ident = obj.id_ident;
                 Objhap.nom_ident = obj.nom_ident;
-                
+
                 tipo_identificacionAD ObjhadAD = new tipo_identificacionAD();
                 bool resultado = ObjhadAD.puttipo_identificacion(Objhap);
                 if (resultado == true)

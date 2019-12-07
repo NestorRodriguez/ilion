@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\datos_jugadorAD.cs" />
     <Compile Include="Consultas\estudianteAD.cs" />
     <Compile Include="Consultas\rolesAD.cs" />
     <Compile Include="Consultas\tipo_identificacionAD.cs" />

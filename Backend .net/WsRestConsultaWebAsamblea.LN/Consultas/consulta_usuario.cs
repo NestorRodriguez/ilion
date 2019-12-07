@@ -43,6 +43,37 @@ namespace WsRestConsultaWebAsamblea.LN.Consultas
             }
         }
 
+
+        public List<usuario> ConsultaLogin(usuario obj)
+        {
+            try
+            {
+
+                usuario Objhap = new usuario();
+                Objhap.email = obj.email;
+                Objhap.contraseña = obj.contraseña;
+                usuarioAD ObjhadAD = new usuarioAD();
+                List = ObjhadAD.ConsultaLogin(Objhap);
+                if (List.Count > 0)
+                {
+                    return List;
+                }
+                else
+                {
+                    ObjError.Error = "Contraseña erronea";
+                    List.Add(ObjError);
+                    return List;
+                }
+
+            }
+            catch (Exception)
+            {
+                ObjError.Error = "No hay conexion";
+                List.Add(ObjError);
+                return List;
+            }
+        }
+
         public List<usuario> Consulta_usuario()
         {
             try
