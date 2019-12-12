@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-WsRestConsultaWebAsamblea-20191007093616;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-WsRestConsultaWebAsamblea-20191007093616.mdf" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aprendiz\.DESKTOP-SCOUP7G\\Documents\\ultima\ entrega\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\maikol\.ramirez\\Documents\\Desarrollos\\12\.Proyecto\\Final\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
   <parameter name="ilion-Web.config Connection String" description="ilion Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Server=tcp:ilionn.database.windows.net,1433;Initial Catalog=Ilion;Persist Security Info=False;User ID=maikop12345;Password=Prosegur20141;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aprendiz\.DESKTOP-SCOUP7G\\Documents\\ultima\ entrega\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ilion']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\maikol\.ramirez\\Documents\\Desarrollos\\12\.Proyecto\\Final\\ilion\\Backend\ \.net\\WsRestConsultaWebAsamblea\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ilion']/@connectionString" />
   </parameter>
 </parameters>

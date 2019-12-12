@@ -60,7 +60,7 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
 
         }
 
-        public List<datos_jugador> get_datos_jugador(datos_jugador obj)
+        public List<datos_jugador> get_datos_jugador_id(datos_jugador obj)
         {
 
             List<string[,]> list = new List<string[,]>();

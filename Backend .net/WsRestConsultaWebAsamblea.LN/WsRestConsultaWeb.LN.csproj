@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\Consulta_datos_jugador.cs" />
     <Compile Include="Consultas\ConsultaRol.cs" />
     <Compile Include="Consultas\consulta_estudiante.cs" />
     <Compile Include="Consultas\Consulta_Identificacion.cs" />

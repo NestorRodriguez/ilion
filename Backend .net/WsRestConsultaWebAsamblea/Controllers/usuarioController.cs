@@ -18,9 +18,8 @@ namespace WsRestConsultaWebAsamblea.Controllers
         [HttpGet]
         public WsRestConsultaWebAsamblea.LN.Modelo.Respuesta Get()
         {
-           // objhad.id_rol = id_rol.ToString();
             WsRestConsultaWebAsamblea.LN.Modelo.Respuesta respuesta = new LN.Modelo.Respuesta();
-            respuesta.contenido.Add("lista_usuario", objeconsulta.Consulta_usuario());
+            respuesta.contenido.Add("Get_usuario", objeconsulta.Consulta_usuario());
             return respuesta;
         }
 
@@ -29,15 +28,15 @@ namespace WsRestConsultaWebAsamblea.Controllers
         {
             objhad.id_registro = id_registro;
             WsRestConsultaWebAsamblea.LN.Modelo.Respuesta respuesta = new LN.Modelo.Respuesta();
-            respuesta.contenido.Add("lista_usuario_id", objeconsulta.Consulta_usuario_id(objhad));
+            respuesta.contenido.Add("GET_usuario_id", objeconsulta.Consulta_usuario_id(objhad));
             return respuesta;
         }
 
         [HttpPost]
         public WsRestConsultaWebAsamblea.LN.Modelo.Respuesta Post(usuario obj)
         {
-            
-                usuario Objnew = new usuario();
+
+            usuario Objnew = new usuario();
                 Objnew.nombre = obj.nombre;
                 Objnew.email = obj.email;
                 Objnew.id_ident = obj.id_ident;
@@ -68,7 +67,7 @@ namespace WsRestConsultaWebAsamblea.Controllers
         }
 
         [HttpDelete]
-        public WsRestConsultaWebAsamblea.LN.Modelo.Respuesta Delete(usuario obj)
+        public WsRestConsultaWebAsamblea.LN.Modelo.Respuesta Delete(datos_jugador obj)
         {
             usuario Objnew = new usuario();
             Objnew.id_registro = obj.id_registro;            
