@@ -12,6 +12,12 @@ const routes: Routes = [
   { path: 'logo', loadChildren: './logo/logo.module#LogoPageModule' },
   { path: 'pagos', loadChildren: './pagos/pagos.module#PagosPageModule' },
   { path: 'calendario', loadChildren: './calendario/calendario.module#CalendarioPageModule' },
+  { path: 'vartip1', loadChildren: './vartip1/vartip1.module#Vartip1PageModule' },
+  { path: 'vartip2', loadChildren: './vartip2/vartip2.module#Vartip2PageModule' },
+  { path: 'msjanalisis', loadChildren: './msjanalisis/msjanalisis.module#MsjanalisisPageModule' },
+  { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisPageModule' },
+  { path: 'resumeninscrip', loadChildren: './resumeninscrip/resumeninscrip.module#ResumeninscripPageModule' },
+
 
 ];
 
