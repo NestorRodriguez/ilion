@@ -46,7 +46,7 @@ namespace WsRestConsultaWebAsamblea.Controllers
 
             // objhad.id_rol = id_rol.ToString();
             WsRestConsultaWebAsamblea.LN.Modelo.Respuesta respuesta = new LN.Modelo.Respuesta();
-            respuesta.contenido.Add("Se agrego usuario", objeconsulta.postusuario(Objnew));
+            respuesta.contenido.Add("Post_usuario", objeconsulta.postusuario(Objnew));
             return respuesta;
         }
 
@@ -62,7 +62,7 @@ namespace WsRestConsultaWebAsamblea.Controllers
             Objnew.contraseña = obj.contraseña;
             Objnew.id_rol = obj.id_rol;
             WsRestConsultaWebAsamblea.LN.Modelo.Respuesta respuesta = new LN.Modelo.Respuesta();
-            respuesta.contenido.Add("Se actualizo usuario", objeconsulta.putusuario(Objnew));
+            respuesta.contenido.Add("Put_usuario", objeconsulta.putusuario(Objnew));
             return respuesta;
         }
 
@@ -72,7 +72,7 @@ namespace WsRestConsultaWebAsamblea.Controllers
             usuario Objnew = new usuario();
             Objnew.id_registro = obj.id_registro;            
             WsRestConsultaWebAsamblea.LN.Modelo.Respuesta respuesta = new LN.Modelo.Respuesta();
-            respuesta.contenido.Add("Se elimino usuario", objeconsulta.deleteusuario(Objnew));
+            respuesta.contenido.Add("Delete_usuario", objeconsulta.deleteusuario(Objnew));
             return respuesta;
         }
     }
