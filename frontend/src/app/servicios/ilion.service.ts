@@ -10,6 +10,7 @@ export class ilionService {
 
   serverUrlLogin = 'https://serviciolan.azurewebsites.net/api/login';
   serverUrlUsuario = 'http://serviciolan.azurewebsites.net/api/usuario'
+  serverUrlInscripcion = 'http://serviciolan.azurewebsites.net/api/datos_jugador_'
 
   
   constructor(public http: HttpClient) { }
@@ -22,12 +23,17 @@ export class ilionService {
         );
   }
 
+
   setUsuario(data: any) {
     return this.http.post(this.serverUrlUsuario, data);
   }
 
-  getUsuario(id: string) {
+  getUsuario_id(id: string) {
     return this.http.get(`${this.serverUrlUsuario}/${id}`);
+  }
+
+  getUsuario() {
+    return this.http.get(this.serverUrlUsuario);
   }
 
   putUsuario(data: any) {

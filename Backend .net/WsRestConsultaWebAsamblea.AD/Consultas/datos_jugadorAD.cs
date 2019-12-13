@@ -117,7 +117,7 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
         {
 
             bool confirmacion = false;
-            string[, ,] Param = new string[29, 3, 1];
+            string[, ,] Param = new string[28, 3, 1];
 
 
             Param[0, 0, 0] = obj.nombre_jugaro;
@@ -216,25 +216,25 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
             Param[23, 1, 0] = "@otra_clinica";
             Param[23, 2, 0] = "varchar(40)";
 
-            Param[24, 0, 0] = obj.email;
-            Param[24, 1, 0] = "@email";
+            //Param[24, 0, 0] = obj.email;
+            //Param[24, 1, 0] = "@email";
+            //Param[24, 2, 0] = "varchar(40)";
+
+            Param[24, 0, 0] = obj.pregunta1;
+            Param[24, 1, 0] = "@pregunta1";
             Param[24, 2, 0] = "varchar(40)";
 
-            Param[25, 0, 0] = obj.pregunta1;
-            Param[25, 1, 0] = "@pregunta1";
+            Param[25, 0, 0] = obj.pregunta2;
+            Param[25, 1, 0] = "@pregunta2";
             Param[25, 2, 0] = "varchar(40)";
 
-            Param[26, 0, 0] = obj.pregunta2;
-            Param[26, 1, 0] = "@pregunta2";
+            Param[26, 0, 0] = obj.pregunta3;
+            Param[26, 1, 0] = "@pregunta3";
             Param[26, 2, 0] = "varchar(40)";
 
-            Param[27, 0, 0] = obj.pregunta3;
-            Param[27, 1, 0] = "@pregunta3";
+            Param[27, 0, 0] = obj.id_registro;
+            Param[27, 1, 0] = "@id_registro";
             Param[27, 2, 0] = "varchar(40)";
-
-            Param[28, 0, 0] = obj.id_registro;
-            Param[28, 1, 0] = "@id_registro";
-            Param[28, 2, 0] = "varchar(40)";
             try
             {
                 string resul = wsc.Ejecutar(Param, "OPE_post_datos_jugador", "ilion");
@@ -260,7 +260,7 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
         {
 
             bool confirmacion = false;
-            string[, ,] Param = new string[30, 3, 1];
+            string[, ,] Param = new string[29, 3, 1];
 
 
             Param[0, 0, 0] = obj.id_jugador;
@@ -363,25 +363,22 @@ namespace WsRestConsultaWebAsamblea.AD.Consultas
             Param[24, 1, 0] = "@otra_clinica";
             Param[24, 2, 0] = "varchar(40)";
 
-            Param[25, 0, 0] = obj.email;
-            Param[25, 1, 0] = "@email";
+
+            Param[25, 0, 0] = obj.pregunta1;
+            Param[25, 1, 0] = "@pregunta1";
             Param[25, 2, 0] = "varchar(40)";
 
-            Param[26, 0, 0] = obj.pregunta1;
-            Param[26, 1, 0] = "@pregunta1";
+            Param[26, 0, 0] = obj.pregunta2;
+            Param[26, 1, 0] = "@pregunta2";
             Param[26, 2, 0] = "varchar(40)";
 
-            Param[27, 0, 0] = obj.pregunta2;
-            Param[27, 1, 0] = "@pregunta2";
+            Param[27, 0, 0] = obj.pregunta3;
+            Param[27, 1, 0] = "@pregunta3";
             Param[27, 2, 0] = "varchar(40)";
 
-            Param[28, 0, 0] = obj.pregunta3;
-            Param[28, 1, 0] = "@pregunta3";
+            Param[28, 0, 0] = obj.id_registro;
+            Param[28, 1, 0] = "@id_registro";
             Param[28, 2, 0] = "varchar(40)";
-
-            Param[29, 0, 0] = obj.id_registro;
-            Param[29, 1, 0] = "@id_registro";
-            Param[29, 2, 0] = "varchar(40)";
             try
             {
                 string resul = wsc.Ejecutar(Param, "OPE_put_datos_jugador", "ilion");
