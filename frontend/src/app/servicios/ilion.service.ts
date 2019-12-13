@@ -9,6 +9,8 @@ import { catchError, tap } from 'rxjs/operators';
 export class ilionService {
 
   serverUrlLogin = 'https://serviciolan.azurewebsites.net/api/login';
+  serverUrlUsuario = 'http://serviciolan.azurewebsites.net/api/usuario'
+
   
   constructor(public http: HttpClient) { }
 
@@ -18,6 +20,24 @@ export class ilionService {
         tap(data => console.log(JSON.stringify(data))),
         catchError(this.handleError)
         );
+  }
+
+  setUsuario(data: any) {
+    return this.http.post(this.serverUrlUsuario, data);
+  }
+
+  getUsuario(id: string) {
+    return this.http.get(`${this.serverUrlUsuario}/${id}`);
+  }
+
+  putUsuario(data: any) {
+    console.log(data);
+    return this.http.put(this.serverUrlUsuario, data);
+  }
+
+  deleteUsuario(id: string) {
+    console.log(`${this.serverUrlUsuario}/${id}`);
+    return this.http.delete(`${this.serverUrlUsuario}/${id}`);
   }
   
 

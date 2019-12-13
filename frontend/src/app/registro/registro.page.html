@@ -26,7 +26,7 @@
                 <ion-col>
                     <ion-item>
                         <ion-label position="floating">Nombre Completo: </ion-label>
-                        <ion-input type="input" ngModel name="email"></ion-input>
+                        <ion-input type="input" required type="text" [(ngModel)]="nombre" name="nombre"></ion-input>
                     </ion-item>
                 </ion-col>
             </ion-row>
@@ -34,23 +34,27 @@
                 <ion-col>
                     <ion-item>
                         <ion-label position="floating">Email</ion-label>
-                        <ion-input type="email" ngModel name="email"></ion-input>
+                        <ion-input type="email" required type="email" [(ngModel)]="email" name="email"></ion-input>
                     </ion-item>
                 </ion-col>
             </ion-row>
             <ion-row>
                 <ion-col>
                     <ion-item>
-                        <ion-label position="floating">Tipo de Documento</ion-label>
-                        <ion-input type="numeric" ngModel name="email"></ion-input>
-                    </ion-item>
+                        <ion-label>Tipo de Documento</ion-label>
+                         <ion-select [(ngModel)]="id_ident" placeholder="Seleccione una">
+                                <ion-select-option value="1">Cedula</ion-select-option>
+                                <ion-select-option value="2">Tarjeta Identidad</ion-select-option>
+                                <ion-select-option value="3">Cedula Extranjeria</ion-select-option>
+                              </ion-select>
+                               </ion-item>
                 </ion-col>
             </ion-row>
             <ion-row>
                 <ion-col>
                     <ion-item>
                         <ion-label position="floating">Documento</ion-label>
-                        <ion-input type="input" ngModel name="email"></ion-input>
+                        <ion-input type="input" required type="text" [(ngModel)]="num_ident" name="num_ident"></ion-input>
                     </ion-item>
                 </ion-col>
             </ion-row>
@@ -58,18 +62,15 @@
                 <ion-col>
                     <ion-item>
                         <ion-label position="floating">Contraseña</ion-label>
-                        <ion-input type="input" ngModel name="email"></ion-input>
+                        <ion-input type="input" required type="password" [(ngModel)]="password" name="password"></ion-input>
                     </ion-item>
                 </ion-col>
             </ion-row>
-            <ion-row>
-                <ion-col>
-                    <ion-item>
-                        <ion-label position="floating">Confirma Contraseña</ion-label>
-                        <ion-input type="input" ngModel name="email"></ion-input>
-                    </ion-item>
-                </ion-col>
-            </ion-row>
+<ion-row>
+    <ion-col>
+            <ion-button expand="block" type="submit" color="primary" (click)="saveForm()">Registrar</ion-button>
+        </ion-col>
+        </ion-row>
         </ion-grid>
     </ion-card>
 </ion-content>
