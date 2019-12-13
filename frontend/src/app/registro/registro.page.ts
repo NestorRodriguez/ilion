@@ -30,9 +30,16 @@ export class RegistroPage implements OnInit {
       id_rol: this.id_rol
     };
     console.log(data);
-    this.servicio.setUsuario(data).subscribe(response => {
-      console.log(response);
-    });
+    this.servicio.setUsuario(data)
+    .subscribe(
+      response => {console.log(response)},
+      error =>console.log(error)
+      );
+
+  }
+
+  mensaje()
+  {
   }
 
 }
