@@ -4,12 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
-import { CalendarioPage } from './calendario.page';
+
+import { CalendarPage } from './calendar.page';
 import { NgCalendarModule  } from 'ionic2-calendar';
+
+
 const routes: Routes = [
   {
     path: '',
-    component: CalendarioPage
+    component: CalendarPage
   }
 ];
 
@@ -21,6 +24,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     NgCalendarModule
   ],
-  declarations: [CalendarioPage]
+  declarations: [CalendarPage]
 })
-export class CalendarioPageModule {}
+export class CalendarPageModule {}

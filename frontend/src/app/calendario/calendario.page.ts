@@ -1,19 +1,13 @@
-import { Component, OnInit } from '@angular/Core';
-import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
-import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
-import { NgCalendarModule  } from 'ionic2-calendar';
+import { CalendarComponent } from 'ionic2-calendar/calendar';
+import { Component, ViewChild, OnInit, Inject, LOCALE_ID } from '@angular/core';
+import { AlertController } from '@ionic/angular';
+import { formatDate } from '@angular/common';
+
 
 
 export class CalendarioPage implements OnInit {
 
-  constructor(private commonModule: CommonModule,
-              private ionicModule: IonicModule,
-              private formsModule: FormsModule,
-              private routerModule: RouterModule,
-              private ngCalendarModule: NgCalendarModule
-    ) { }
+  constructor() { }
 
   ngOnInit() {
   }
