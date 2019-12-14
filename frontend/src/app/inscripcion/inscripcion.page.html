@@ -1,74 +1,277 @@
 <ion-header>
-        <ion-toolbar color="primary">
-            <ion-buttons slot="start">
-                <ion-menu-button></ion-menu-button>
-            </ion-buttons>
-            <ion-img class="img" slot="start"></ion-img>
-            <ion-title>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-img class="img" slot="start"></ion-img>
+        <ion-title>
             INSCRIPCIÓN
-            </ion-title>
-            <ion-img class="img" slot="end"></ion-img>
-        </ion-toolbar>
-        <!-- <ion-toolbar color="secondary" class="menu"> -->
-        <span class="menu" color="secondary"></span>
-        <!-- </ion-toolbar> -->
-    </ion-header>
+        </ion-title>
+        <ion-img class="img" slot="end"></ion-img>
+    </ion-toolbar>
+    <!-- <ion-toolbar color="secondary" class="menu"> -->
+    <span class="menu" color="secondary"></span>
+    <!-- </ion-toolbar> -->
+</ion-header>
 <ion-content>
-        <ion-card align-items-center>
-                <ion-grid>
-                    <ion-row>
-                        <ion-col>
-                            <ion-item>
-                                <ion-label position="floating">Nombre Completo: </ion-label>
-                                <ion-input type="input" required type="text" [(ngModel)]="nombre" name="nombre"></ion-input>
-                            </ion-item>
-                        </ion-col>
-                    </ion-row>
-                    <ion-row>
-                        <ion-col>
-                            <ion-item>
-                                <ion-label position="floating">Email</ion-label>
-                                <ion-input type="email" required type="email" [(ngModel)]="email" name="email"></ion-input>
-                            </ion-item>
-                        </ion-col>
-                    </ion-row>
-                    <ion-row>
-                        <ion-col>
-                            <ion-item>
-                                <ion-label>Tipo de Documento</ion-label>
-                                <ion-select [(ngModel)]="id_ident" placeholder="Seleccione una">
-                                    <ion-select-option value="1">Cedula</ion-select-option>
-                                    <ion-select-option value="2">Tarjeta Identidad</ion-select-option>
-                                    <ion-select-option value="3">Cedula Extranjeria</ion-select-option>
-                                </ion-select>
-                            </ion-item>
-                        </ion-col>
-                    </ion-row>
-                    <ion-row>
-                        <ion-col>
-                            <ion-item>
-                                <ion-label position="floating">Documento</ion-label>
-                                <ion-input type="input" required type="text" [(ngModel)]="num_ident" name="num_ident">
-                                </ion-input>
-                            </ion-item>
-                        </ion-col>
-                    </ion-row>
-                    <ion-row>
-                        <ion-col>
-                            <ion-item>
-                                <ion-label position="floating">Contraseña</ion-label>
-                                <ion-input type="input" required type="password" [(ngModel)]="password" name="password">
-                                </ion-input>
-                            </ion-item>
-                        </ion-col>
-                    </ion-row>
-                    <ion-row>
-                        <ion-col>
-                            <ion-button expand="block" type="submit" color="primary" (click)="saveForm()">Registrar</ion-button>
-                        </ion-col>
-                    </ion-row>
-                </ion-grid>
-            </ion-card>
+    <ion-card align-items-center>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Nombre Completo: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="nombre_jugaro" name="nombre"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Fecha Nacimiento: </ion-label>
+                        <ion-input type="email" required type="email" [(ngModel)]="fecha_nacimiento" name="fecha_nacimiento"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Lugar de Nacimiento: </ion-label>
+                        <ion-input type="email" required type="email" [(ngModel)]="lugar" name="lugar"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Tipo de Documento</ion-label>
+                        <ion-select [(ngModel)]="tipo_documento" placeholder="Seleccione una">
+                            <ion-select-option value="1">Cedula</ion-select-option>
+                            <ion-select-option value="2">Tarjeta Identidad</ion-select-option>
+                            <ion-select-option value="3">Cedula Extranjeria</ion-select-option>
+                        </ion-select>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Documento: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="documento_identidad" name="documento_identidad">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Genero: </ion-label>
+                        <ion-select [(ngModel)]="genero" placeholder="Seleccione una">
+                            <ion-select-option value="Masculino">Masculino</ion-select-option>
+                            <ion-select-option value="Femenino">Femenino</ion-select-option>
+                        </ion-select>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Dirección: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="direccion_residencia" name="direccion_residencia">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Barrio: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="barrio" name="barrio">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Telefono: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="telefono" name="telefono">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Celular: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="celular" name="celular">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Correo: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="email" name="email">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Whatsapp: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="whatsapp" name="whatsapp">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Edad: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="edad" name="edad">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Peso: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="peso" name="peso">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Estatura: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="estatura" name="estatura">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Talla: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="talla" name="talla">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">RH: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="rh" name="rh">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Pie Habil</ion-label>
+                        <ion-select [(ngModel)]="pie_habil" placeholder="Seleccione una">
+                            <ion-select-option value="derecha">Derecha</ion-select-option>
+                            <ion-select-option value="izquierda">Izquierda</ion-select-option>
+                        </ion-select>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Institución: </ion-label>
+                        <ion-select [(ngModel)]="institucion" placeholder="Seleccione una">
+                            <ion-select-option value="universidad">Universidad</ion-select-option>
+                            <ion-select-option value="colegio">Colegio</ion-select-option>
+                        </ion-select>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Grado/Semestre: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="grado" name="grado">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">EPS: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="eps" name="eps">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Medicina Prepagada: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="prepagada" name="prepagada">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Sisben: </ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="sisben" name="sisben">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">¿Otra Clinica?</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="otra_clinica" name="otra_clinica">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">¿?</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="pregunta1" name="pregunta1">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">¿?</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="pregunta2" name="pregunta2">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">¿?</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="pregunta3" name="pregunta3">
+                        </ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-button expand="block" type="submit" color="primary" (click)="saveForm()">Inscribir</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card>
 </ion-content>
 <ion-footer>
     <ion-button expand="full" color="primary">CERRAR SESIÓN</ion-button>

@@ -19,7 +19,7 @@ export class RegistroPage implements OnInit {
   constructor(private servicio: ilionService,
     private alertController: AlertController,
     private loadingCtrl: LoadingController,
-    private navControl: NavController, ) { }
+    private navControl: NavController ) { }
 
   ngOnInit() {
     this.nombre = '';
@@ -45,7 +45,7 @@ export class RegistroPage implements OnInit {
         response => {
           console.log(response);
           let json = JSON.parse(JSON.stringify(response));
-          this.resultado = json.contenido.Post_usuario.Error
+          this.resultado = json.contenido.Post_usuario.Error;
           if (this.resultado === 'Se agrego Exitosamente') {
             this.presentAlertExito();
             this.navControl.navigateRoot('home');
