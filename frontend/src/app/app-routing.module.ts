@@ -16,7 +16,10 @@ const routes: Routes = [
   { path: 'vartip2', loadChildren: './vartip2/vartip2.module#Vartip2PageModule' },
   { path: 'msjanalisis', loadChildren: './msjanalisis/msjanalisis.module#MsjanalisisPageModule' },
   { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisPageModule' },
-  { path: 'resumeninscrip', loadChildren: './resumeninscrip/resumeninscrip.module#ResumeninscripPageModule' },
+  { path: 'resumeninscrip', loadChildren: './resumeninscrip/resumeninscrip.module#ResumeninscripPageModule' },  { path: 'menu-estadisticas', loadChildren: './menu-estadisticas/menu-estadisticas.module#MenuEstadisticasPageModule' },
+  { path: 'nutricion', loadChildren: './nutricion/nutricion.module#NutricionPageModule' },
+  { path: 'posicion', loadChildren: './posicion/posicion.module#PosicionPageModule' },
+
 
 
 ];
