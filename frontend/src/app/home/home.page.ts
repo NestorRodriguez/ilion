@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ilionService } from '../servicios/ilion.service';
 import { ActivatedRoute } from '@angular/router';
 import {NgForm} from '@angular/forms';
-import { NavController, LoadingController,AlertController } from '@ionic/angular';
+import { NavController, LoadingController, AlertController } from '@ionic/angular';
 import { isNull } from 'util';
 
 @Component({
@@ -10,16 +10,16 @@ import { isNull } from 'util';
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage implements OnInit{
+export class HomePage implements OnInit {
 
   public  email: string;
   public password: string;
   items: any = [];
   constructor(private alertController: AlertController,
-    private loadingCtrl: LoadingController,
-     private servicio:ilionService,
-     private navControl: NavController,
-      private route: ActivatedRoute) {}
+              private loadingCtrl: LoadingController,
+              private servicio: ilionService,
+              private navControl: NavController,
+              private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.email = '';
@@ -73,5 +73,5 @@ export class HomePage implements OnInit{
       this.presentAlert();
     }
   }
- 
+
 }
