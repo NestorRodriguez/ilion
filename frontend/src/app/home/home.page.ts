@@ -62,8 +62,11 @@ export class HomePage implements OnInit {
       loading.present();
       loading.dismiss();
       this.servicio.getLogin(this.email, this.password).subscribe(data => {
+
+        let json = JSON.parse(JSON.stringify(data));
+        console.log(json.contenido.Login_rol[0].id_rol) ;
         console.log(data);
-        if ( isNull(data)) {
+        if ( isNull(json.contenido.Login_rol[0].id_rol)) {
           this.presentinvalido();
         } else {
         console.log(this.items);
