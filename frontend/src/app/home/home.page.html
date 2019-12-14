@@ -1,60 +1,49 @@
 <ion-header>
-        <ion-toolbar color="primary">
-            <ion-buttons slot="start">
-                <ion-menu-button></ion-menu-button>
-            </ion-buttons>
-            <ion-img class="img" slot="start"></ion-img>
-            <ion-title>
-                INICIAR SESIÓN
-            </ion-title>
-            <ion-img class="img" slot="end"></ion-img>
-        </ion-toolbar>
-        <!-- <ion-toolbar color="secondary" class="menu"> -->
-        <span class="menu" color="secondary"></span>
-        <!-- </ion-toolbar> -->
-    </ion-header>
+    <ion-toolbar color="primary">
+
+        <ion-img class="img" slot="start"></ion-img>
+        <ion-title>
+            INICIAR SESIÓN
+        </ion-title>
+        <ion-img class="img" slot="end"></ion-img>
+    </ion-toolbar>
+    <!-- <ion-toolbar color="secondary" class="menu"> -->
+    <span class="menu" color="secondary"></span>
+    <!-- </ion-toolbar> -->
+</ion-header>
 <ion-content>
-        <form (ngSubmit)="login(forma)" #forma="ngForm">
-    <ion-grid>
-        <ion-row>
-            <ion-col>
-                <ion-img></ion-img>
-            </ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col>
-                <ion-item>
-                    <ion-label position="floating" >Email</ion-label>
-                    <ion-input type="email" [(ngModel)]="email"  required type="text" name="email"></ion-input>
-                    <ion-label position="floating">Password</ion-label>
-                    <ion-input type="password" [(ngModel)]="password" required type="password" name="password"></ion-input>
-                </ion-item>
-            </ion-col>
-        </ion-row>
-        <ion-row>
-            <ion-col>
-                <ion-button expand="block" type="submit" color="primary" >Entrar</ion-button>
-            </ion-col>
-        </ion-row>
-    </ion-grid>
-    <hr>
-    <hr>
-    <ion-text color="dark">
-        <h5>Olvidó Contraseña?</h5>
-    </ion-text>
-    <hr>
-    <hr>
+    <form (ngSubmit)="login(forma)" #forma="ngForm">
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-img></ion-img>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Email</ion-label>
+                        <ion-input type="email" [(ngModel)]="email" required type="text" name="email"></ion-input>
+                        <ion-label position="floating">Password</ion-label>
+                        <ion-input type="password" [(ngModel)]="password" required type="password" name="password"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-button expand="block" type="submit" color="primary">Entrar</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
 
-    <ion-text color="dark" routerLink="/registro" >
-        <h5>¿No tienes una cuenta? Regístrate</h5>
-    </ion-text>
-
-    <hr>
-    <hr>
-    <ion-text color="dark">
-        <h5>Regístrese con las redes sociales</h5>
-    </ion-text>
-</form>
+        <ion-text color="dark" slot="end" routerLink="/registro">
+            <h5>¿No tienes una cuenta? Regístrate</h5>
+        </ion-text>
+    </form>
 </ion-content>
 <ion-footer>
     <ion-toolbar color="primary" class="title">

@@ -1,19 +1,33 @@
 <ion-header>
     <ion-toolbar color="primary">
-        <ion-title slot="secondary">
+        <ion-buttons slot="start">
+            <ion-back-button text="Regresar" defaultHref="/menu"></ion-back-button>
+        </ion-buttons>
+        <ion-img class="img" slot="start"></ion-img>
+        <ion-title>
             PAGOS
         </ion-title>
+        <ion-img class="img" slot="end"></ion-img>
     </ion-toolbar>
+    <!-- <ion-toolbar color="secondary" class="menu"> -->
+    <span class="menu" color="secondary"></span>
+    <!-- </ion-toolbar> -->
 </ion-header>
-<ion-card-content class="imagen">
-    <img src="/assets/daviplata.png">
+<ion-card-content class="imagen" (click)="abrirDaviPlata()">
+    <ion-item>
+        <img src="/assets/daviplata.png">
+    </ion-item>
 </ion-card-content>
-<ion-card-content class="imagen">
-    <img src="/assets/nequi.jpg">
+<ion-card-content class="imagen" (click)="abrirNequi()">
+    <ion-item>
+        <img src="/assets/nequi.jpg ">
+    </ion-item>
 </ion-card-content>
-<ion-card-content class="imagen">
-    <img src="/assets/paypal.jpg">
+<ion-card-content class="imagen ">
+    <ion-item>
+        <img src="/assets/paypal.jpg ">
+    </ion-item>
 </ion-card-content>
 <ion-footer>
-    <ion-button expand="full" color="primary">CERRAR SESIÓN</ion-button>
+    <ion-button expand="full" routerLink="/home" color="primary">CERRAR SESIÓN</ion-button>
 </ion-footer>
