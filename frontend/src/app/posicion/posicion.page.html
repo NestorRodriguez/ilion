@@ -15,7 +15,48 @@
 </ion-header>
 
 <ion-content>
+    <form (ngSubmit)="Operacion(forma)" #forma="ngForm">
 
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Velocidad</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="velocidad" name="velocidad"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Resistencia</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="resistencia" name="resistencia"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Fuerza</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="fuerza" name="fuerza"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-item>
+                        <ion-label position="floating">Flexibilidad</ion-label>
+                        <ion-input type="input" required type="text" [(ngModel)]="flexibilidad" name="flexibilidad"></ion-input>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-button expand="block" type="submit" color="primary">Evaluar</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </form>
 </ion-content>
 <ion-footer>
     <ion-button expand="full" routerLink="/home" color="primary">CERRAR SESIÓN</ion-button>

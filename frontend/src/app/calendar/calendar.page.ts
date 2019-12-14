@@ -27,7 +27,7 @@ export class CalendarPage implements OnInit {
     currentDate: new Date(),
   };
 
-  @ViewChild(CalendarComponent) myCal: CalendarComponent;
+  @ViewChild(CalendarComponent, {static: false}) myCal: CalendarComponent;
 
   constructor(private alertCtrl: AlertController, @Inject(LOCALE_ID) private locale: string) { }
 

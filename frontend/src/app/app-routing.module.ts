@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'menu-estadisticas', loadChildren: './menu-estadisticas/menu-estadisticas.module#MenuEstadisticasPageModule' },
   { path: 'nutricion', loadChildren: './nutricion/nutricion.module#NutricionPageModule' },
   { path: 'posicion', loadChildren: './posicion/posicion.module#PosicionPageModule' },
-  { path: 'calendar', loadChildren: './calendar/calendar.module#CalendarPageModule' },
+  { path: 'calendar', loadChildren: './calendar/calendar.module#CalendarPageModule' },  { path: 'menu-inscipcion', loadChildren: './menu-inscipcion/menu-inscipcion.module#MenuInscipcionPageModule' },
+
 
 
 
