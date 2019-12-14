@@ -1,0 +1,151 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["menu-inscipcion-menu-inscipcion-module"],{
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/menu-inscipcion/menu-inscipcion.page.html":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/menu-inscipcion/menu-inscipcion.page.html ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ion-header>\n    <ion-toolbar color=\"primary\">\n        <ion-buttons slot=\"start\">\n            <ion-back-button text=\"REGRESAR\" defaultHref=\"/menu\"></ion-back-button>\n        </ion-buttons>\n        <ion-img class=\"img\" slot=\"start\"></ion-img>\n        <ion-title>\n            INSCRITOS\n        </ion-title>\n        <ion-img class=\"img\" slot=\"end\"></ion-img>\n    </ion-toolbar>\n    <!-- <ion-toolbar color=\"secondary\" class=\"menu\"> -->\n    <span class=\"menu\" color=\"secondary\"></span>\n    <!-- </ion-toolbar> -->\n</ion-header>\n\n<ion-content>\n    <ion-grid>\n        <ion-row>\n            <ion-col></ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col></ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col></ion-col>\n            <ion-col>\n                <ion-button (click)=\"saveForm()\">\n                    Inscripción Nueva\n                </ion-button>\n            </ion-col>\n            <ion-col></ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n\n                <ion-item-sliding *ngFor='let estado of estadoActual'>\n                    <ion-item-options side=\"start\">\n                        <ion-item-option color=\"danger\" (click)=\"deleteForm(estado.id_jugador)\">Eliminar\n                        </ion-item-option>\n                    </ion-item-options>\n                    <ion-item>\n                        <ion-label>\n                            {{estado.nombre_jugaro}}\n                        </ion-label>\n                    </ion-item>\n                    <ion-item-options side=\"end\">\n                        <ion-item-option (click)=\"editForm(estado.id_jugador)\">Editar\n                        </ion-item-option>\n                    </ion-item-options>\n                </ion-item-sliding>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n</ion-content>"
+
+/***/ }),
+
+/***/ "./src/app/menu-inscipcion/menu-inscipcion.module.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/menu-inscipcion/menu-inscipcion.module.ts ***!
+  \***********************************************************/
+/*! exports provided: MenuInscipcionPageModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuInscipcionPageModule", function() { return MenuInscipcionPageModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _menu_inscipcion_page__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menu-inscipcion.page */ "./src/app/menu-inscipcion/menu-inscipcion.page.ts");
+
+
+
+
+
+
+
+var routes = [
+    {
+        path: '',
+        component: _menu_inscipcion_page__WEBPACK_IMPORTED_MODULE_6__["MenuInscipcionPage"]
+    }
+];
+var MenuInscipcionPageModule = /** @class */ (function () {
+    function MenuInscipcionPageModule() {
+    }
+    MenuInscipcionPageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [
+                _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+                _ionic_angular__WEBPACK_IMPORTED_MODULE_5__["IonicModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forChild(routes)
+            ],
+            declarations: [_menu_inscipcion_page__WEBPACK_IMPORTED_MODULE_6__["MenuInscipcionPage"]]
+        })
+    ], MenuInscipcionPageModule);
+    return MenuInscipcionPageModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/menu-inscipcion/menu-inscipcion.page.scss":
+/*!***********************************************************!*\
+  !*** ./src/app/menu-inscipcion/menu-inscipcion.page.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21lbnUtaW5zY2lwY2lvbi9tZW51LWluc2NpcGNpb24ucGFnZS5zY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/menu-inscipcion/menu-inscipcion.page.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/menu-inscipcion/menu-inscipcion.page.ts ***!
+  \*********************************************************/
+/*! exports provided: MenuInscipcionPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuInscipcionPage", function() { return MenuInscipcionPage; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var _servicios_ilion_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../servicios/ilion.service */ "./src/app/servicios/ilion.service.ts");
+
+
+
+
+
+var MenuInscipcionPage = /** @class */ (function () {
+    function MenuInscipcionPage(navControl, route, servicio) {
+        this.navControl = navControl;
+        this.route = route;
+        this.servicio = servicio;
+        this.estadoActual = [];
+        this.errorMessage = '';
+    }
+    MenuInscipcionPage.prototype.ngOnInit = function () {
+        this.getEstadoActual();
+    };
+    MenuInscipcionPage.prototype.getEstadoActual = function () {
+        var _this = this;
+        this.servicio.getDatos_jugador().subscribe(function (estadoActual) {
+            console.log(estadoActual);
+            var json = JSON.parse(JSON.stringify(estadoActual));
+            _this.estadoActual = json.contenido.Get_datos_jugaro;
+        }, function (error) { return _this.errorMessage = error; });
+    };
+    MenuInscipcionPage.prototype.editForm = function (id) {
+        this.navControl.navigateForward("incripcion-details/" + id);
+        this.ngOnInit();
+    };
+    MenuInscipcionPage.prototype.deleteForm = function (id) {
+        var _this = this;
+        this.id = id;
+        this.servicio.deleteDatos_jugador(id).subscribe(function (response) {
+            _this.ngOnInit();
+            console.log(response);
+        });
+    };
+    MenuInscipcionPage.prototype.saveForm = function () {
+        this.navControl.navigateRoot('/inscripcion');
+    };
+    MenuInscipcionPage.ctorParameters = function () { return [
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["NavController"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] },
+        { type: _servicios_ilion_service__WEBPACK_IMPORTED_MODULE_4__["ilionService"] }
+    ]; };
+    MenuInscipcionPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-menu-inscipcion',
+            template: __webpack_require__(/*! raw-loader!./menu-inscipcion.page.html */ "./node_modules/raw-loader/index.js!./src/app/menu-inscipcion/menu-inscipcion.page.html"),
+            styles: [__webpack_require__(/*! ./menu-inscipcion.page.scss */ "./src/app/menu-inscipcion/menu-inscipcion.page.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_3__["NavController"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"], _servicios_ilion_service__WEBPACK_IMPORTED_MODULE_4__["ilionService"]])
+    ], MenuInscipcionPage);
+    return MenuInscipcionPage;
+}());
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=menu-inscipcion-menu-inscipcion-module-es5.js.map
